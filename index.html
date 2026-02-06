@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- COPYRIGHT & OWNERSHIP MARK - DO NOT REMOVE -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="© 2025 OG (Omkar R. Ghare). All rights reserved.">
+    <meta name="creator" content="Omkar R. Ghare">
+    <meta name="brand" content="OG">
+    <meta name="description" content="Transform your business with cutting-edge AI solutions. Premium AI SaaS platform for modern startups and enterprises.">
+    <meta name="keywords" content="AI, SaaS, Machine Learning, Artificial Intelligence, Startup, Technology">
+    <meta name="author" content="Omkar R. Ghare - OG">
+    <meta property="og:title" content="AI SaaS - Revolutionary AI Solutions">
+    <meta property="og:description" content="Transform your business with cutting-edge AI solutions">
+    <meta property="og:type" content="website">
+    <title>AI SaaS - Revolutionary AI Solutions for Modern Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Stylish Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="cube-loader">
+                <div class="cube">
+                    <div class="face front"></div>
+                    <div class="face back"></div>
+                    <div class="face right"></div>
+                    <div class="face left"></div>
+                    <div class="face top"></div>
+                    <div class="face bottom"></div>
+                </div>
+            </div>
+            <div class="loading-text">
+                <span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-3d">
+                        <span class="logo-text">AI</span>
+                        <span class="logo-subtext">SaaS</span>
+                    </div>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="sun-icon">☀️</span>
+                        <span class="moon-icon">🌙</span>
+                    </button>
+                    <button class="cta-btn">Get Started</button>
+                    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="animated-gradient"></div>
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left" data-aos="fade-right">
+                    <div class="badge">🚀 #1 AI Platform 2024</div>
+                    <h1 class="hero-title">
+                        Transform Your Business With
+                        <span class="gradient-text typing-text" id="typingText"></span>
+                    </h1>
+                    <p class="hero-description">
+                        Harness the power of cutting-edge artificial intelligence to automate, 
+                        optimize, and revolutionize your workflow. Join 50,000+ companies already transforming their future.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">
+                            Start Free Trial
+                            <span class="btn-arrow">→</span>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <span class="play-icon">▶</span>
+                            Watch Demo
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="50000">0</h3>
+                            <p class="stat-label">Active Users</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="99">0</h3>
+                            <p class="stat-label">Satisfaction</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="150">0</h3>
+                            <p class="stat-label">Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right" data-aos="fade-left">
+                    <div class="hero-3d-container">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">🤖</div>
+                            <div class="card-content">
+                                <h4>AI Automation</h4>
+                                <p>+340% Efficiency</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">📊</div>
+                            <div class="card-content">
+                                <h4>Analytics</h4>
+                                <p>Real-time Insights</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">⚡</div>
+                            <div class="card-content">
+                                <h4>Fast Processing</h4>
+                                <p>0.3s Response</p>
+                            </div>
+                        </div>
+                        <div class="central-sphere">
+                            <div class="sphere-inner"></div>
+                            <div class="sphere-ring ring-1"></div>
+                            <div class="sphere-ring ring-2"></div>
+                            <div class="sphere-ring ring-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">✨ Features</div>
+                <h2 class="section-title">Powerful AI Features Built For You</h2>
+                <p class="section-subtitle">Everything you need to supercharge your business with AI technology</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <div class="icon-3d">🧠</div>
+                    </div>
+                    <h3 class="feature-title">Machine Learning</h3>
+                    <p class="feature-description">Advanced ML algorithms that learn and adapt to your business needs in real-time.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <div class="icon-3d">🔒</div>
+                    </div>
+                    <h3 class="feature-title">Enterprise Security</h3>
+                    <p class="feature-description">Bank-level encryption and security protocols to keep your data safe and secure.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <div class="icon-3d">⚙️</div>
+                    </div>
+                    <h3 class="feature-title">Easy Integration</h3>
+                    <p class="feature-description">Seamlessly integrate with your existing tools and workflows in minutes.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <div class="icon-3d">📈</div>
+                    </div>
+                    <h3 class="feature-title">Real-time Analytics</h3>
+                    <p class="feature-description">Get actionable insights with comprehensive analytics and reporting tools.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <div class="icon-3d">🌐</div>
+                    </div>
+                    <h3 class="feature-title">Global Scale</h3>
+                    <p class="feature-description">Infrastructure designed to scale globally with 99.99% uptime guarantee.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <div class="icon-3d">💬</div>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-description">Round-the-clock expert support to help you succeed at every step.</p>
+                    <a href="#" class="feature-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">💼 Services</div>
+                <h2 class="section-title">AI Solutions For Every Industry</h2>
+                <p class="section-subtitle">Tailored AI services designed to meet your specific business needs</p>
+            </div>
+            <div class="services-container">
+                <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="service-number">01</div>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">💼</div>
+                    </div>
+                    <h3 class="service-title">Business Intelligence</h3>
+                    <p class="service-description">Transform raw data into actionable insights with our advanced BI tools powered by AI.</p>
+                    <ul class="service-features">
+                        <li>✓ Predictive Analytics</li>
+                        <li>✓ Data Visualization</li>
+                        <li>✓ Custom Dashboards</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="service-number">02</div>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">🤖</div>
+                    </div>
+                    <h3 class="service-title">Process Automation</h3>
+                    <p class="service-description">Automate repetitive tasks and streamline workflows with intelligent automation.</p>
+                    <ul class="service-features">
+                        <li>✓ Workflow Optimization</li>
+                        <li>✓ Smart Scheduling</li>
+                        <li>✓ Task Management</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="service-number">03</div>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">💬</div>
+                    </div>
+                    <h3 class="service-title">Conversational AI</h3>
+                    <p class="service-description">Engage customers 24/7 with intelligent chatbots and virtual assistants.</p>
+                    <ul class="service-features">
+                        <li>✓ Natural Language Processing</li>
+                        <li>✓ Multi-language Support</li>
+                        <li>✓ Sentiment Analysis</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="service-number">04</div>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">🎯</div>
+                    </div>
+                    <h3 class="service-title">Predictive Modeling</h3>
+                    <p class="service-description">Forecast trends and make data-driven decisions with advanced predictive models.</p>
+                    <ul class="service-features">
+                        <li>✓ Trend Forecasting</li>
+                        <li>✓ Risk Assessment</li>
+                        <li>✓ Customer Behavior</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">💰 Pricing</div>
+                <h2 class="section-title">Choose Your Perfect Plan</h2>
+                <p class="section-subtitle">Flexible pricing options designed to grow with your business</p>
+            </div>
+            <div class="pricing-toggle" data-aos="fade-up">
+                <span class="toggle-label monthly active">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricingToggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="toggle-label yearly">Yearly <span class="save-badge">Save 20%</span></span>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Starter</h3>
+                        <p class="pricing-description">Perfect for individuals and small teams</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount monthly-price">29</span>
+                        <span class="amount yearly-price" style="display:none;">23</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 10,000 API Calls/month</li>
+                        <li>✓ Basic Analytics</li>
+                        <li>✓ Email Support</li>
+                        <li>✓ 5 Team Members</li>
+                        <li>✓ 10GB Storage</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="200">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Professional</h3>
+                        <p class="pricing-description">For growing businesses and startups</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount monthly-price">79</span>
+                        <span class="amount yearly-price" style="display:none;">63</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 100,000 API Calls/month</li>
+                        <li>✓ Advanced Analytics</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Unlimited Team Members</li>
+                        <li>✓ 100GB Storage</li>
+                        <li>✓ Custom Integrations</li>
+                        <li>✓ Advanced Security</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Enterprise</h3>
+                        <p class="pricing-description">For large organizations</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="amount custom-price">Custom</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited API Calls</li>
+                        <li>✓ Enterprise Analytics</li>
+                        <li>✓ 24/7 Dedicated Support</li>
+                        <li>✓ Unlimited Everything</li>
+                        <li>✓ Unlimited Storage</li>
+                        <li>✓ Custom Development</li>
+                        <li>✓ SLA Guarantee</li>
+                        <li>✓ On-premise Deployment</li>
+                    </ul>
+                    <button class="pricing-btn">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">💬 Testimonials</div>
+                <h2 class="section-title">Loved By Thousands Of Companies</h2>
+                <p class="section-subtitle">See what our customers are saying about us</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p class="testimonial-text">
+                            "This AI platform has completely transformed how we operate. The automation features 
+                            saved us countless hours and the ROI has been incredible. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://i.pravatar.cc/150?img=1" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Sarah Johnson</h4>
+                                <p class="author-position">CEO, TechCorp Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p class="testimonial-text">
+                            "The best investment we've made this year. The AI capabilities are cutting-edge 
+                            and the support team is always there when we need them. Five stars!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Michael Chen</h4>
+                                <p class="author-position">CTO, DataFlow Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p class="testimonial-text">
+                            "Implementing this AI solution was seamless. We saw results within the first week. 
+                            The analytics and insights have been game-changing for our business."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://i.pravatar.cc/150?img=5" alt="Emily Rodriguez">
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Emily Rodriguez</h4>
+                                <p class="author-position">Marketing Director, GrowthHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p class="testimonial-text">
+                            "Outstanding platform! The machine learning capabilities have helped us predict 
+                            customer behavior with amazing accuracy. Our conversion rates are up 150%."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://i.pravatar.cc/150?img=7" alt="David Kim">
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">David Kim</h4>
+                                <p class="author-position">Founder, StartupX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prevBtn">←</button>
+                    <button class="slider-btn next" id="nextBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Stats/Achievements -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-icon">🏆</div>
+                    <h3 class="stat-value" data-target="50">0</h3>
+                    <p class="stat-label">Awards Won</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-icon">👥</div>
+                    <h3 class="stat-value" data-target="500">0</h3>
+                    <p class="stat-label">Team Members</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-icon">🚀</div>
+                    <h3 class="stat-value" data-target="1000">0</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-icon">😊</div>
+                    <h3 class="stat-value" data-target="50000">0</h3>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: CTA Section -->
+    <section class="cta-section">
+        <div class="cta-bg">
+            <div class="cta-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title">Ready to Transform Your Business?</h2>
+                <p class="cta-description">
+                    Join 50,000+ companies already using our AI platform to accelerate growth and innovation
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">
+                        Start Free 14-Day Trial
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <button class="btn btn-secondary btn-large">
+                        Schedule a Demo
+                    </button>
+                </div>
+                <p class="cta-note">✓ No credit card required  •  ✓ Cancel anytime  •  ✓ 24/7 support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Contact/Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-3d">
+                            <span class="logo-text">AI</span>
+                            <span class="logo-subtext">SaaS</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Empowering businesses worldwide with cutting-edge AI solutions. 
+                        Transform your future with intelligent automation.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="newsletter-text">Subscribe to get the latest updates and news.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">
+                            <span>→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 AI SaaS. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
